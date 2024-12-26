@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6492651996273616045
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6865331997362190969}
+  m_Layer: 0
+  m_Name: Greenpepperfinally
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6865331997362190969
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6492651996273616045}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 1.5}
+  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1136502740354968409}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &3694828307953878428
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6865331997362190969}
+    m_Modifications:
+    - target: {fileID: 1724308395373444860, guid: db99c42fde215fd4ca367c3fb9f11c39, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 1724308395373444860, guid: db99c42fde215fd4ca367c3fb9f11c39, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 1724308395373444860, guid: db99c42fde215fd4ca367c3fb9f11c39, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 2064383611838489670, guid: db99c42fde215fd4ca367c3fb9f11c39, type: 3}
+      propertyPath: m_TagString
+      value: Fruit
+      objectReference: {fileID: 0}
+    - target: {fileID: 3008026873437059897, guid: db99c42fde215fd4ca367c3fb9f11c39, type: 3}
+      propertyPath: m_Name
+      value: Greenpepper
+      objectReference: {fileID: 0}
+    - target: {fileID: 3479630188657759014, guid: db99c42fde215fd4ca367c3fb9f11c39, type: 3}
+      propertyPath: startRollSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4360331053261106885, guid: db99c42fde215fd4ca367c3fb9f11c39, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.7418276
+      objectReference: {fileID: 0}
+    - target: {fileID: 4360331053261106885, guid: db99c42fde215fd4ca367c3fb9f11c39, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4360331053261106885, guid: db99c42fde215fd4ca367c3fb9f11c39, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.48678514
+      objectReference: {fileID: 0}
+    - target: {fileID: 4360331053261106885, guid: db99c42fde215fd4ca367c3fb9f11c39, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4360331053261106885, guid: db99c42fde215fd4ca367c3fb9f11c39, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4360331053261106885, guid: db99c42fde215fd4ca367c3fb9f11c39, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4360331053261106885, guid: db99c42fde215fd4ca367c3fb9f11c39, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4360331053261106885, guid: db99c42fde215fd4ca367c3fb9f11c39, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4360331053261106885, guid: db99c42fde215fd4ca367c3fb9f11c39, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 4360331053261106885, guid: db99c42fde215fd4ca367c3fb9f11c39, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881118156921105409, guid: db99c42fde215fd4ca367c3fb9f11c39, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: db99c42fde215fd4ca367c3fb9f11c39, type: 3}
+--- !u!4 &1136502740354968409 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4360331053261106885, guid: db99c42fde215fd4ca367c3fb9f11c39, type: 3}
+  m_PrefabInstance: {fileID: 3694828307953878428}
+  m_PrefabAsset: {fileID: 0}
