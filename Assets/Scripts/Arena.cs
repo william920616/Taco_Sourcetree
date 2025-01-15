@@ -86,7 +86,7 @@ public class Arena : MonoBehaviour
             yield return new WaitForSeconds(8f);
             int random_monster1 = Random.Range(0, monster.Length);
             Instantiate(monster[random_monster], RandomPosition(), Quaternion.identity);
-            yield return new WaitForSeconds(10f); // 增加一個隨機等待時間
+            yield return new WaitForSeconds(5f); // 增加一個隨機等待時間
         }
     }
 

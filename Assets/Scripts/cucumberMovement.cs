@@ -13,17 +13,17 @@ public class cucumberMovement : MonoBehaviour
         transform.position -= Vector3.forward * startRollSpeed * Time.deltaTime;
     }
 
-    private void OnTriggerEnter(Collider other)
-    {
-        if(other.gameObject.tag == "Player")
-        {
-            Destroy(gameObject);
-        }
-        if (other.gameObject.tag == "Taco")
-        {
-            hitAudio.Play();
-            Destroy(this.gameObject);
-            Destroy(other.gameObject);
-        }
-    }
+    //private void OnTriggerEnter(Collider other)
+    //{
+    //    if(other.gameObject.tag == "Player")
+    //    {
+    //        Destroy(gameObject);
+    //    }
+    //    if (other.gameObject.tag == "Taco")
+    //    {
+    //        hitAudio.Play();
+    //        Destroy(this.gameObject);
+    //        Destroy(other.gameObject);
+    //    }
+    //}
 }

@@ -55,11 +55,6 @@ public class Playerbullet : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Fruit")
-        {
-            Destroy(other.gameObject);
-            Destroy(gameObject);
-        }
         if (other.gameObject.tag == "Iceshield")
         {
             Destroy(other.gameObject);

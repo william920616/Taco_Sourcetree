@@ -304,7 +304,8 @@ MonoBehaviour:
   TacoShoot: {fileID: 5857892479367509731}
   Player: {fileID: 6068001675433275150}
   Taco: {fileID: 1715096426261715915, guid: d11ac86d0d30d8944a9bb5eca8bab5cb, type: 3}
-  TacoChange: {fileID: 2822660679183552142, guid: 25fe4feb7b136c84d9fa97bfd44ddd07, type: 3}
+  TacoSpicy: {fileID: 2822660679183552142, guid: 25fe4feb7b136c84d9fa97bfd44ddd07, type: 3}
+  TacoStop: {fileID: 1715096426261715915, guid: 6e3c4b2661f031a489d76466069e3abf, type: 3}
   heart1: {fileID: 0}
   heart2: {fileID: 0}
   heart3: {fileID: 0}
@@ -314,6 +315,7 @@ MonoBehaviour:
   icefallAudio: {fileID: 6697186035112054751}
   spicycollectAudio: {fileID: 5834842204381915714}
   spicytacothrowAudio: {fileID: 2240483318126217048}
+  currentShootMode: 0
   flagTransform: {fileID: 0}
   customGravity: {x: 0, y: -49.24, z: 0}
 --- !u!82 &493098337638723909

@@ -11,11 +11,11 @@ public class FruitMovement1 : MonoBehaviour
         // 直接更新 transform.position 來沿 -Y 方向移動
         transform.position -= Vector3.forward * startRollSpeed * Time.deltaTime;
     }
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.tag == "Player")
-        {
-            Destroy(gameObject);
-        }
-    }
+    //private void OnTriggerEnter(Collider other)
+    //{
+    //    if (other.gameObject.tag == "Player")
+    //    {
+    //        Destroy(gameObject);
+    //    }
+    //}
 }
